@@ -1,0 +1,289 @@
+/*
+ * @package Helix Framework
+ * Template Name - Shaper Aspasia
+ * @author JoomShaper http://www.joomshaper.com
+ * @copyright Copyright (c) 2010 - 2016 JoomShaper
+ * @license http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 or later
+ */
+
+
+
+
+/* ************** 	   Start Buttons   	**************** */
+/* ***************************************************** */
+
+.btn,
+.sppb-btn {
+    .transition(~'color 400ms, background-color 400ms, border-color 400ms');
+}
+
+//Offline
+.offline-inner {
+    margin-top: 100px;
+}
+
+.btn,
+.sppb-btn {
+    padding: 0 35px !important;
+    line-height: 45px;
+    border: 1px solid #909498;
+    color: #525252;
+    font-size: 18px;
+    border-radius: 30px;
+    .transition(.3s);
+    &:hover,
+        &:focus,
+        &:active{
+        border: 1px solid #000;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        top: 5px;
+        color: #fff;
+    }
+}
+.variation-applanding {
+    .spb-res-padding {
+        .sppb-btn.sppb-btn-link {
+            border: 1px solid #909498 !important;
+        }
+    }
+}
+.variation-creative,
+.variation-portfolio,
+.variation-agency{
+  .sppb-pricing-footer {
+    .sppb-btn.sppb-btn-link {
+      border-radius: 30px !important;
+    }
+  }
+}
+
+button{
+    line-height: 1 !important;
+    height: 42px;
+}
+input.btn,
+input.sppb-btn{
+    height: 45px !important;
+    line-height: 45px !important;
+    &:hover,
+        &:focus,
+        &:active,
+        &:focus:active{
+        outline: none;
+    }
+}
+
+.btn.btn-sm,
+.sppb-btn.sppb-btn-sm {
+    line-height: 36px;
+    padding: 0 25px !important;
+}
+
+.btn.btn-xs,
+.sppb-btn.sppb-btn-xs {
+    line-height: 34px;
+    padding: 0 30px !important;
+}
+
+.btn.btn-lg,
+.sppb-btn.sppb-btn-lg{
+    line-height: 52px;
+    padding: 0 50px !important;
+}
+
+.btn.btn-default,
+.sppb-btn.sppb-btn-default,
+.btn.btn-lg.btn-default,
+.sppb-btn.sppb-btn-lg.sppb-btn-default{
+    background-color: #fff;
+    border-color: #fff;
+    &:hover,
+        &:focus,
+        &:active{
+        background-color: darken(#fff, 10%);
+        color: #525252;
+    }
+}
+.btn.btn-primary,
+.sppb-btn.sppb-btn-primary,
+.btn.btn-lg.btn-primary,
+.sppb-btn.sppb-btn-lg.sppb-btn-primary{
+    color: #fff;
+}
+.btn.btn-success,
+.sppb-btn.sppb-btn-success,
+.btn.btn-lg.btn-success,
+.sppb-btn.sppb-btn-lg.sppb-btn-success{
+    background-color: #58cf68;
+    color: #fff;
+    border-color: #58cf68;
+    &:hover,
+        &:focus,
+        &:active{
+        background-color: darken(#58cf68, 12%);
+        border-color: darken(#58cf68, 12%);
+    }
+}
+.btn.btn-info,
+.sppb-btn.sppb-btn-info,
+.btn.btn-lg.btn-info,
+.sppb-btn.sppb-btn-lg.sppb-btn-info{
+    background-color: #24252a;
+    color: #fff;
+    border-color: #24252a;
+    &:hover,
+        &:focus,
+        &:active{
+        background-color: darken(#24252a, 12%);
+        border-color: darken(#24252a, 12%);
+    }
+}
+.btn.btn-warning,
+.sppb-btn.sppb-btn-warning,
+.btn.btn-lg.btn-warning,
+.sppb-btn.sppb-btn-lg.sppb-btn-warning{
+    background-color: #ff3d00;
+    color: #fff;
+    border-color: #ff3d00;
+    &:hover,
+        &:focus,
+        &:active{
+        background-color: darken(#ff3d00, 12%);
+        border-color: darken(#ff3d00, 12%);
+    }
+}
+.btn.btn-danger,
+.sppb-btn.sppb-btn-danger,
+.btn.btn-lg.btn-danger,
+.sppb-btn.sppb-btn-lg.sppb-btn-danger{
+    background-color: #e35358;
+    color: #fff;
+    border-color: #e35358;
+    &:hover,
+        &:focus,
+        &:active{
+        background-color: darken(#e35358, 12%);
+        border-color: darken(#e35358, 12%);
+    }
+}
+.btn.btn-link,
+.sppb-btn.sppb-btn-link,
+.btn.btn-lg.btn-link,
+.sppb-btn.sppb-btn-lg.sppb-btn-link{
+    &:hover,
+        &:focus,
+        &:active{
+        color: #fff;
+        text-decoration: none;
+    }
+}
+
+/* ************** 	  END:: Buttons   	**************** */
+/* ***************************************************** */
+
+
+/* ************** 	  START input   	**************** */
+/* ***************************************************** */
+
+//input
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+    .form-control();
+    border-radius: 5px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    height: 50px;
+    padding: 6px 30px !important;
+    border: 1px solid transparent !important;
+    background-color: rgba(0,0,0,.15);
+    .transition(.3s);
+    &:focus{
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        outline: none !important;
+    }
+}
+.sppb-form-control{
+    border-radius: 5px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    height: 50px;
+    padding: 6px 30px;
+    border: 1px solid transparent;
+    background-color: rgba(0,0,0,.15);
+    .transition(.3s);
+    &:focus{
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        outline: none;
+    }
+}
+.group-control {
+    select,
+    textarea,
+    input[type="text"],
+    input[type="password"],
+    input[type="datetime"],
+    input[type="datetime-local"],
+    input[type="date"],
+    input[type="month"],
+    input[type="time"],
+    input[type="week"],
+    input[type="number"],
+    input[type="email"],
+    input[type="url"],
+    input[type="search"],
+    input[type="tel"],
+    input[type="color"],
+    .uneditable-input {
+        width: 100%;
+    }
+}
+
+/* ************** 	  END:: input   	**************** */
+/* ***************************************************** */
+
+
+// For frontend edit
+#sppb-add-new-row-btn,
+#dropdown-columns-manage{
+    padding: 0 !important;
+    &:hover,&:focus:active{
+        padding: 0 !important;
+    }
+}
+#addon-option-form{
+    input{
+        background-color: #fff;
+    }
+    input[type="range"]{
+        background-color: transparent;
+    }
+}
+#sp-pagebuilder-page-tools{
+    button{
+        height: auto;
+        line-height: 1.5 !important;
+    }
+}
+.sp-pagebuilder-edit-panel input[type="number"],
+.uneditable-input.sp-pagebuilder-form-control, input[type=email].sp-pagebuilder-form-control, input[type=number].sp-pagebuilder-form-control, input[type=search].sp-pagebuilder-form-control, input[type=tel].sp-pagebuilder-form-control, input[type=text].sp-pagebuilder-form-control, input[type=url].sp-pagebuilder-form-control, textarea.sp-pagebuilder-form-control{
+    padding: 4px 10px !important;
+    border: 1px solid #fff !important;
+}

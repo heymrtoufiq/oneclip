@@ -1,0 +1,7 @@
+/*
+!.gitignore
+.DS_Store
+!/templates
+/templates/*
+
+!/templates/shaper_oneclip
